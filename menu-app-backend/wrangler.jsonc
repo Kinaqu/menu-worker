@@ -1,0 +1,20 @@
+{
+  "name": "menu-app-backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-17",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "menu-app-db",
+      "database_id": "1878a5ae-256a-4012-ad10-0e0ba9e0cf0b",
+      "preview_database_id": "menu-app-db-local",
+      "migrations_dir": "migrations",
+      "migrations_table": "d1_migrations"
+    }
+  ],
+
+  "vars": {
+    "DEFAULT_TIMEZONE": "Europe/Istanbul"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"name": "menu-app-backend",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.12.4",
+		"@cloudflare/workers-types": "^4.20260317.1",
+		"@types/node": "^25.5.0",
+		"typescript": "^5.9.3",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.75.0"
+	},
+	"dependencies": {
+		"zod": "^4.3.6"
+	}
+}
